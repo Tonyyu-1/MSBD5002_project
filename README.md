@@ -2,6 +2,7 @@
 This project implements the Cascaded Cross Attention (CCA) model for review-based sequential recommendation. The model integrates user-item interaction sequences with review texts to learn richer user and item representations. It uses a multi-layer attention mechanism to align and combine semantic features from reviews and sequence dynamics for better recommendation performance.
 
 The implementation is based on PyTorch and supports both training and evaluation pipelines.
+github_link: https://github.com/Tonyyu-1/MSBD5002_project/tree/main
 
 ## Dependencies
 Python 3.8+
