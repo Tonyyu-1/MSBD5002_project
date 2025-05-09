@@ -16,6 +16,14 @@ scikit-learn
 
 pandas
 
+## Data prepare
+Place the dataset files (e.g., Amazon, Yelp) under the dataset/ directory. Make sure to preprocess them into sequences and review features if not already done.
+
+## File Discription
+Data_prepare.ipynb: Processes raw interaction and review data. Constructs user/item sequences and review embeddings suitable for training.
+My_CCA: Defines and trains the CCA model, evaluates it on the prepared dataset, and prints out key metrics such as Hit@10 and NDCG@10.
+
+## Tips
 If you use this code, please cite the original paper:
 @INPROCEEDINGS{10415676,
   author={Huang, Bingsen and Luo, Jinwei and Du, Weihao and Pan, Weike and Ming, Zhong},
