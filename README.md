@@ -5,10 +5,15 @@ The implementation is based on PyTorch and supports both training and evaluation
 
 ## Dependencies
 Python 3.8+
+
 PyTorch 1.10+
+
 NumPy
+
 tqdm
+
 scikit-learn
+
 pandas
 
 If you use this code, please cite the original paper:
